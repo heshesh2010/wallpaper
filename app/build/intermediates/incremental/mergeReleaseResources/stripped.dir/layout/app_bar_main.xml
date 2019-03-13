@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerChip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/blurView"
+        android:contentDescription="@string/blur_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scaleType="centerCrop"/>
+
+    <com.view.jameson.library.SpeedRecyclerView
+        android:layout_below="@id/recyclerChip"
+        android:id="@+id/recyclerWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

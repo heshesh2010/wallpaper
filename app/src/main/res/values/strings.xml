@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Wallpaper</string>
+    <string name="setwallpaper">Set</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="like">Like</string>
+    <string name="set_lock_screen">SET LOCK SCREEN</string>
+    <string name="set_home_screen">SET HOME SCREEN</string>
+    <string name="set_both">SET BOTH</string>
+    <string name="remove">Remove</string>
+    <string name="favorites">Favorites</string>
+    <string name="review">Review and Feedback</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="homescreenwallpaper">Home screen wallpaper successfully changed!</string>
+    <string name="lockscreenwallpaper">Lock screen wallpaper successfully changed</string>
+    <string name="lockandhomewallpaper">Lock screen and home screen wallpapers successfully changed</string>
+    <string name="downloadsuccess">Image successfully downloaded</string>
+    <string name="likesuccess">Image successfully added to favorites</string>
+    <string name="blur_view">blur view</string>
+    <string name="search_on_any_wallpaper_category">Search on any wallpaper category!</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="no_results_found">No Results Found !</string>
+    <string name="no_data_found">No data found</string>
+</resources>

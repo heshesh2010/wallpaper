@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FullscreenActivity">
+
+
+    <EditText
+        android:layout_alignParentTop="true"
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:minLines="1"
+        android:imeOptions="actionGo"
+        android:inputType="text"
+        android:singleLine="true"
+        android:background="@drawable/search_edittext"
+        android:ems="10"
+        android:hint="@string/search_on_any_wallpaper_category"
+        android:drawableLeft="@drawable/search_icon"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/search_icon">
+    </EditText>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/editSearch"
+        android:id="@+id/recyclerWallpaper"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>

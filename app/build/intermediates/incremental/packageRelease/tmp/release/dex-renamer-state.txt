@@ -1,0 +1,4 @@
+#Mon Mar 11 14:38:02 EET 2019
+base.0=C\:\\Users\\heshe\\OneDrive\\Desktop\\Android\\wallpaper\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
